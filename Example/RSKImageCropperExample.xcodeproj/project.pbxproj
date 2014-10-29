@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4979AFE11A01606900A12400 /* RSKImageCropper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4979AFE01A01606900A12400 /* RSKImageCropper.bundle */; };
 		B87A99F019A4D2CD00D12CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87A99EF19A4D2CD00D12CD4 /* Foundation.framework */; };
 		B87A99F219A4D2CD00D12CD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87A99F119A4D2CD00D12CD4 /* CoreGraphics.framework */; };
 		B87A99F419A4D2CD00D12CD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87A99F319A4D2CD00D12CD4 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4979AFE01A01606900A12400 /* RSKImageCropper.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RSKImageCropper.bundle; sourceTree = "<group>"; };
 		B87A99EC19A4D2CD00D12CD4 /* RSKImageCropperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSKImageCropperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87A99EF19A4D2CD00D12CD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B87A99F119A4D2CD00D12CD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +178,7 @@
 		B87A9A2219A4D39800D12CD4 /* RSKImageCropper */ = {
 			isa = PBXGroup;
 			children = (
+				4979AFE01A01606900A12400 /* RSKImageCropper.bundle */,
 				B87A9A2519A4D39800D12CD4 /* RSKImageCropper.h */,
 				B87A9A2619A4D39800D12CD4 /* RSKImageCropViewController.h */,
 				B87A9A2719A4D39800D12CD4 /* RSKImageCropViewController.m */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87A99FA19A4D2CD00D12CD4 /* InfoPlist.strings in Resources */,
+				4979AFE11A01606900A12400 /* RSKImageCropper.bundle in Resources */,
 				B87A9A0219A4D2CD00D12CD4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
